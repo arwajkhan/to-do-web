@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container {
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1 {
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+
+}
+
+#tasks {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#list {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2 {
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+
+}
+
+
+.card1 {
+    margin-top: 10px;
+    border: 1.5px solid rgb(207, 209, 207);
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+  
+
+}
+.card2 {
+    margin-top: 10px;
+    border: 1.5px solid rgb(207, 209, 207);
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+  
+
+}
+.card3{
+    margin-top: 10px;
+    border: 1.5px solid rgb(207, 209, 207);
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+  
+
+}
+
+.div1 {
+
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    right: 0px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+.div2 {
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: deepskyblue;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.div3 {
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 20px;
+
+
+}
+
+#check {
+    width: 20px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.lower{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+
+
+
+/* responsive web design */
+
+@media (max-width:600px) {
+    
+.upper-container{
+    width: 80%;
+
+}
+.upper-container1{
+    width: 80%;
+}
+#addlist{
+    display: none;
+}
+#circle{
+    right: 30px;
+}
+
+.div2{
+    display: none;
+}
+.div3{
+    display: none;
+}
+
+.div1
+{
+    border: none;
+    color: grey;
+}
+.lower{
+    flex-direction: column;
+}
+.card1{
+    width: 90%;
+    height: 20vh;
+    margin-top: 30px;
+}
+.card2{
+    width: 90%;
+    height: 20vh;
+    margin-top: 30px;
+}
+.card3{
+    width: 90%;
+    height: 20vh;
+    margin-top: 30px;
+}
+
+}
